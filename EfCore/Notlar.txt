@@ -1,0 +1,10 @@
+﻿- EfCore ile proje geliştirmek istiyorsak aşağıdaki paketleri yüklememiz gerekecek
+
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.SqlServer (Veritabanımız MS-Sql Server ise)
+- Microsoft.EntityFrameworkCore.Tools (Migration işlemlerini yapabilmemiz için gerekli olan paket)
+
+- Yukarıdaki paketleri yüklerken versiyon uyumluluğu önemlidir. .NetFramework versiyonumuz 6 ise yükleyeceğimiz EntityFrameworkCore paketleri de 6 versiyonu ile başlamalıdır.
+
+- EntityFrameworkCore versiyonumuz 6,0,15 ise buna bağlı olan diğer paketlerin de aynı versiyonda olması gerekir.
+
